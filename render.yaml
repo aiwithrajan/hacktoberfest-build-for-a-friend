@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: ghostsub
+    runtime: node
+    plan: free
+    buildCommand: npm install && npm run build -w @ghostsub/web
+    startCommand: npm run start -w @ghostsub/web
+    envVars:
+      - key: NODE_VERSION
+        value: "20"
+      - key: OLLAMA_HOST
+        sync: false

@@ -1,0 +1,21 @@
+{
+  "name": "ghostsub",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev -w @ghostsub/web",
+    "build": "npm run build -w @ghostsub/web",
+    "lint": "npm run lint -w @ghostsub/web",
+    "test": "npm run test -w @ghostsub/web",
+    "record:demo": "node scripts/record-demo.mjs",
+    "voice:demo": "bash scripts/add-voice-to-demo.sh"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "playwright": "^1.49.1"
+  }
+}
