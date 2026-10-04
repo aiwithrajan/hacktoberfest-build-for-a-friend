@@ -1,0 +1,11 @@
+GhostSub — built for Hacktoberfest, Build for a Friend.
+
+Export a CSV from your bank. GhostSub runs in the browser. Your statement never uploads to our servers, and you never hand your login to a bill-killer app.
+
+Vampire Radar detects recurring charges, scores each one zero to one hundred, and highlights price creep and zombie rebills.
+
+Tap an issue to inspect the drift, then generate an FTC click-to-cancel letter or a Regulation E affidavit. Copy it or download as text.
+
+Scroll to Friend-Split to compare two roommates and spot duplicate Netflix or Spotify charges.
+
+Open the demo from the README. GhostSub — open, local subscription defense.
